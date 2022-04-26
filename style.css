@@ -1,0 +1,36 @@
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+/*
+
+    # = id
+
+    . = clase
+
+*/
+.deporte{
+    color: blanchedalmond;
+    background-color: aqua;
+}
+
+#deportes{
+    color: brown;
+}
+
+#resaltado{
+    color: brown;
+}
+.articulosDeportes{
+    background-color: aquamarine;
+}
+.articuloinversion{
+    background-color: blueviolet;
+}
+#plazos{
+    color: white;
+}
