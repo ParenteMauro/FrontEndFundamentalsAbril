@@ -1,3 +1,18 @@
+/*
+
+    # = id
+
+    . = clase
+
+    * = todo el archivo
+
+*/
+
+*{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold; /*Negrita*/
+}
 
 h1{
     color: blue;
@@ -6,13 +21,6 @@ h1{
 h2{
     color: red;
 }
-/*
-
-    # = id
-
-    . = clase
-
-*/
 .deporte{
     color: blanchedalmond;
     background-color: aqua;
@@ -33,4 +41,28 @@ h2{
 }
 #plazos{
     color: white;
+}
+
+header ul li{
+    background-color: blueviolet;
+}
+
+
+table{
+    background-color: tomato;
+    border-collapse: collapse;
+}
+th{
+    background-color: brown;
+}
+thead{
+    border-bottom: solid 5px black;
+}
+
+th,td{
+    border: solid 1px black;
+}
+
+tr:nth-child(even){
+    background-color: aqua;
 }
