@@ -12,8 +12,15 @@
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold; /*Negrita*/
+    
 }
-
+ul li{
+    list-style: none;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
 h1{
     color: blue;
 }
@@ -46,7 +53,9 @@ h2{
 header ul li{
     background-color: blueviolet;
 }
-
+img{
+    text-align: center;
+}
 
 table{
     background-color: tomato;
@@ -62,7 +71,13 @@ thead{
 th,td{
     border: solid 1px black;
 }
-
-tr:nth-child(even){
+table{
+    width: 100%;
+}
+#box{
     background-color: aqua;
+    padding-left: 5%;
+    padding-top: 50px;
+    border: solid 5px black;
+    margin-top: 50px;
 }
