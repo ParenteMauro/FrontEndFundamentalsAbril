@@ -81,3 +81,6 @@ table{
     border: solid 5px black;
     margin-top: 50px;
 }
+tr :nth-child(even){
+    background-color: aqua;
+}

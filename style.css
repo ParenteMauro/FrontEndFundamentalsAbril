@@ -1,0 +1,13 @@
+h1{
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 50px 20px 5px 15px;
+    margin: 50px 20px 5px 15px;
+    border: dotted 5px black;
+    
+    width: 100px ;
+}
+img{
+    display:block;
+    width: 300px;
+}
